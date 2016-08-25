@@ -1,9 +1,15 @@
+		/* EFECTO PARALLAX shingoonn :)*/
 
+.body {
+	background-image: url("../img/fondo.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
 
 header nav {
 	background:#5a108d;
 	margin-bottom: 5px;
-	opacity: 0.6;
+	opacity: 0.5;
 }
 
 header nav ul {
@@ -32,11 +38,47 @@ header nav ul li a:hover {
 	z-index: 1000;
 	top: 0;
 	width: 100%;
+	max-width: 1200px;
 }
 
 .circulo {
-	height: 140px;
-	width: 140px;
+	height: 180px;
+	width:180px;
 	padding: 5px;
-	border: 2px solid purple;
+	border: 7px solid purple;
+}
+
+.ama {
+	color: yellow;
+}
+
+.marco {
+
+}
+
+/* EXTRAS */
+
+.te-center {
+	text-align: center;
+}
+
+
+
+
+/* MEDIA QUERIES*/
+@media (min-width: 768px) {
+
+	.logo {
+			width: 10%;
+			height: 10%;
+		}
+
+	.iframe {
+		max-width: 100%;
+			}
+
+	#medidas {
+		display: none;
+	}	
+
 }
