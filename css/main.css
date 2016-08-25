@@ -1,9 +1,20 @@
-		/* EFECTO PARALLAX shingoonn :)*/
+		/* EFECTO PARALLAX CHIDO :)*/
 
 .body {
 	background-image: url("../img/fondo.jpg");
 	background-size: cover;
 	background-attachment: fixed;
+}
+
+		/* NAVEGADOR QUE SE MUEVE CHIDO */
+
+header label {
+	display: none;
+}
+
+header label:hover {
+	cursor: pointer;
+	background: rgba(0,0,0,0.3);
 }
 
 header nav {
@@ -67,6 +78,23 @@ header nav ul li a:hover {
 
 /* MEDIA QUERIES*/
 @media (min-width: 768px) {
+	
+	header label {
+		display: inline-block;
+	}	
+
+	header ul {
+		flex-direction: column;
+	}
+	
+	header ul li {
+		border-top: 1px solid white;
+	}
+
+	#btn-menu [type="checked"]: .menu-fixed {
+		margin:0;
+	}
+   
 
 	.logo {
 			width: 10%;
