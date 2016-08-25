@@ -68,8 +68,20 @@ header nav ul li a:hover {
 	color: yellow;
 }
 
-.marco {
 
+
+.marco {
+		height: 180px;
+		width:500px;
+		background-color: yellow;
+		padding: 9px;
+}
+
+button {
+	border-radius: 9px;
+	border-style: none;
+	background-color: #7fffd4;
+	
 }
 
 /* EXTRAS */
@@ -108,6 +120,7 @@ header nav ul li a:hover {
 
 	.iframe {
 		max-width: 100%;
+		 width: 100%;
 			}
 
 	#medidas {
